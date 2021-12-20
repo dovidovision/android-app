@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    android:layout_marginTop="10dp"
+    >
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="25dp"
+        android:orientation="vertical"
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_margin="5dp"
+            android:src="@drawable/cat_logo"
+            android:foregroundGravity="left"
+            android:layout_weight="1"
+            android:layout_height="0dp"
+            />
+        <ImageView
+            android:layout_margin="5dp"
+            android:padding="10dp"
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_weight="5"
+            android:background="#E4E1E1"
+            android:layout_height="0dp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_margin="5dp"
+            android:layout_height="0dp"
+            >
+
+            <TextView
+                android:id="@+id/load_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:fontFamily="@font/jua"
+                android:text="사진 불러오기"
+                android:layout_marginRight="5dp"
+                android:background="#ffdeeb"
+                android:textColor="#f783ac"
+                />
+
+            <TextView
+                android:id="@+id/upload_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="완료"
+                android:fontFamily="@font/jua"
+                android:background="#ffdeeb"
+                android:textColor="#f783ac"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp"
+        >
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#fff0f6"
+            android:layout_marginBottom="50dp"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:fontFamily="@font/jua"
+            android:textColor="#000000"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>
