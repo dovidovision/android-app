@@ -18,7 +18,7 @@ class MasterApplication: Application() {
 
     fun createRetrofit(){
         val retrofit = Retrofit.Builder()
-            .baseUrl("http://118.67.129.17:6019/")
+            .baseUrl("http://pred.ga:5000/")
             .addConverterFactory(GsonConverterFactory.create())
             .build()
 
